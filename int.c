@@ -17,8 +17,16 @@
  */
 
 void demo_int ()
-{
+{ printf("sizeof(short):%d\n",sizeof(short)); printf("sizeof(short):%d\n",sizeof(unsigned short));
+
         printf("sizeof(int):%d\n",sizeof(int));
+        printf("sizeof(unsigned int):%d\n",sizeof(unsigned int));
+
+        printf("sizeof(long):%d\n",sizeof(long));
+        printf("sizeof(unsigned long):%d\n",sizeof(unsigned long));
+
+        printf("sizeof(long long):%d\n",sizeof(long long));
+        printf("sizeof(unsigned long long):%d\n",sizeof(unsigned long long));
 	return ;
 }
 		
@@ -26,4 +34,4 @@ int main ( int argc, char *argv[] )
 {
         demo_int();
 	return 0;
-}				/* ----------  end of function main  ---------- */
+}				
